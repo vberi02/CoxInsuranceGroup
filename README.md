@@ -4,7 +4,7 @@ Steps to follow:
 
 1) Install Node.js from https://nodejs.org/en/download/ if not downloaded yet. You can check if you have Node.js installed already by opening a Command Prompt and running 'node --version'. Kindly use node version above 10.
 
-2) Check if you already have angular cli installed on your system using command 'ng --version in Command Prompt,do note if your installed angular cli version is above 8.0. If the version is below 8.0, install angular cli using the command 'npm install @angular/cli' in Command Prompt. After installing you can re-check the version by using 'ng --version' command.
+2) Check if you already have angular cli installed on your system using command 'ng --version in Command Prompt,do note if your installed angular cli version is above 8.0. If the version is below 8.0, install angular cli using the command 'npm install -g @angular/cli' in Command Prompt. After installing you can re-check the version by using 'ng --version' command.
 
 3) download the repository of the project from the following url: https://github.com/vberi02/CoxInsuranceGroup . Kindly use the Download Code button on the right side of the GitHub webpage and then selecting 'Download ZIP'.
 
