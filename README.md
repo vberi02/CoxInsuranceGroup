@@ -4,13 +4,13 @@ Steps to follow:
 
 1) Install Node.js from https://nodejs.org/en/download/ if not downloaded yet. You can check if you have Node.js installed already by opening a Command Prompt and running 'node --version'. Kindly use node version above 10.
 
-2) Check if you already have angular cli installed on your system, check if angular cli version is above 8.0. The command to check angular cli version is 'ng --version'. If the version is below 8.0, open a Command Prompt / PowerShell window and install angular cli using the command 'npm install @angular/cli'. After installing you can re-check the version by using 'ng --version' command.
+2) Check if you already have angular cli installed on your system using command 'ng --version in Command Prompt,do note if your installed angular cli version is above 8.0. If the version is below 8.0, install angular cli using the command 'npm install @angular/cli' in Command Prompt. After installing you can re-check the version by using 'ng --version' command.
 
-3) download the repository of the project from the following url: https://github.com/vberi02/CoxInsuranceGroup . Kindly use the Download Code button on the right side of the repository name in the GitHub webpage and selecting 'Download ZIP'.
+3) download the repository of the project from the following url: https://github.com/vberi02/CoxInsuranceGroup . Kindly use the Download Code button on the right side of the GitHub webpage and then selecting 'Download ZIP'.
 
 4) Unzip / Extract the folder 'CoxInsuranceGroup-master' and place it in an accessible location. (Eg: C:\CoxInsuranceGroup-master)
 
-5) open a Command Prompt window and change directory to 'C:\CoxInsuranceGroup-master\CoxInsuranceGroup_Angular\ClientApp\src\app\vehicle-info' (for my case, you may have a different directory start). We want our Command Prompt to execute in 'vehicle-info' folder. It is in CoxInsuranceGroup_Angular\ClientApp\src\app\ directory of the extracted zip file.
+5) Open a Command Prompt window and change directory to 'C:\CoxInsuranceGroup-master\CoxInsuranceGroup_Angular\ClientApp\src\app\vehicle-info' (for my case, you may have a different directory start). We want our Command Prompt to execute in 'vehicle-info' folder. It is in CoxInsuranceGroup_Angular\ClientApp\src\app\ directory of the extracted zip file.
 
 6) run the command 'npm i @angular/core@8.2.12' in Command Prompt opened in the above step. This should also install other dependencies required by the program.
 
