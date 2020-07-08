@@ -2,7 +2,7 @@
 
 Steps to follow:
 
-1) Install Node.js from https://nodejs.org/en/download/ if not downloaded yet. You can check if you have Node.js installed already by opening a Command Prompt and running 'node --version'. Kindly use npm version above 10.
+1) Install Node.js from https://nodejs.org/en/download/ if not downloaded yet. You can check if you have Node.js installed already by opening a Command Prompt and running 'node --version'. Kindly use node version above 10.
 
 2) Check if you already have angular cli installed on your system, check if angular cli version is above 8.0. The command to check angular cli version is 'ng --version'. If the version is below 8.0, open a Command Prompt / PowerShell window and install angular cli using the command 'npm install @angular/cli'. After installing you can re-check the version by using 'ng --version' command.
 
@@ -16,6 +16,7 @@ Steps to follow:
 
 7) run command 'ng --version' in the same Command Prompt to check if everything was installed properly. 
 The output should be as follow:
+
 Angular CLI: 8.3.28
 Node: 12.18.2
 OS: win32 x64
