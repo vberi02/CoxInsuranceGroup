@@ -2,8 +2,8 @@
 
 
 Steps to follow:
-1) Install Node.js from https://nodejs.org/en/download/ if no downloaded yet.
-2) Open a Command Prompt / PowerShell window and Install angular cli using the command 'npm install @angular/cli'.
+1) Install Node.js from https://nodejs.org/en/download/ if not downloaded yet.
+2) Open a Command Prompt / PowerShell window and install angular cli using the command 'npm install @angular/cli'.
 3) download the repository from the following url:
 https://github.com/vberi02/CoxInsuranceGroup
 4) Unzip the folder and place it in an accessable location.
