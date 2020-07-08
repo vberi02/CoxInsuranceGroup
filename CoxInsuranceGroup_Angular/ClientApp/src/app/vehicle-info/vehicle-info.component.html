@@ -1,0 +1,51 @@
+.<div>
+  <label for="txtBox1" class="">Kindly Enter VIN Number:</label>
+  <input type="text" id="txtBox1" #txt1 class="mx-sm-3">
+  <button (click)="GetValue(txt1.value, longContent, errorNull, errorInvalid)" class="btn btn-primary">Get Details</button>
+</div>
+<ng-template #longContent let-modal>
+  <div class="modal-header">
+    <h4 class="modal-title">Details of VIN Number</h4>
+    <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <table class="table table-bordered table-striped">
+      <thead>
+        <tr>
+          <th scope="col">VariableId</th>
+          <th scope="col">Variable</th>
+          <th scope="col">ValueId</th>
+          <th scope="col">Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of xmlItems">
+          <td>{{item.VariableId}}</td>
+          <td>{{item.Variable}}</td>
+          <td>{{item.ValueId}}</td>
+          <td>{{item.Value}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-light" (click)="modal.close('Close click')">Close</button>
+  </div>
+</ng-template>
+
+<ng-template #errorNull let-modal>
+  <div class="modal-body">
+    <p>Please enter VIN number first.</p>
+    <button type="button" class="btn btn-light" (click)="modal.close('Close click')">Close</button>
+  </div>
+</ng-template>
+
+<ng-template #errorInvalid let-modal>
+  <div class="modal-body align-content-center">
+    <p>Please enter VIN number in 17 character format.</p>
+    <button type="button" class="btn btn-light" (click)="modal.close('Close click')">Close</button>
+  </div>
+</ng-template>
+
